@@ -13,7 +13,7 @@ jobs:
     - name: Health Report
       uses: Editst/SYSU-HealthReport@master
       with:
-        netid: ${{gaow23}}
-        password: ${{Goway123..}}
+        netid: ${{secrets.NETID}}
+        password: ${{secrets.PASSWORD}}
         tg_bot_token: ${{secrets.TG_BOT_TOKEN}}
         tg_chatid: ${{secrets.TG_CHATID}}
